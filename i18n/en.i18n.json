@@ -1,8 +1,4 @@
 {
-<<<<<<< HEAD
-  "hello_world": "Hello world!"
-}
-=======
   "greeting_friendly": "Hey there!",
   "home": "Home",
   "archive": "Archive",
@@ -17,4 +13,3 @@
   "please_wait_podcast": "Please wait while the podcast is loading.",
   "please_wait_podcast_friendly": "Hold on while the podcast loads :)"
 }
->>>>>>> 538b9eb06cf075e7a8681089f73291bf4dc2f4d4
