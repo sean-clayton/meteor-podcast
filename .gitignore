@@ -1,0 +1,8 @@
+npm-debug.log
+*.scssc
+.sass-cache/*
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+codekit-config.json
+.idea

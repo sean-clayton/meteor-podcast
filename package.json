@@ -1,0 +1,6 @@
+{
+  "name": "Meteor Boilerplate",
+  "scripts": {
+    "start": "meteor --setings settings.json"
+  }
+}

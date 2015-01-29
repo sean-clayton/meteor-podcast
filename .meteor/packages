@@ -9,6 +9,8 @@ tap:i18n
 coffeescript
 iron:router
 meteorhacks:fast-render
-bstocks:bourbon
-bstocks:neat
 fourseven:scss
+wolves:bourbon
+wolves:bitters
+wolves:neat
+momentjs:moment

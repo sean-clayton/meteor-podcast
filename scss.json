@@ -1,0 +1,10 @@
+{
+  "includePaths": [
+    ".meteor/local/build/programs/server/assets/packages/wolves_bourbon",
+    ".meteor/local/build/programs/server/assets/packages/wolves_bitters",
+    ".meteor/local/build/programs/server/assets/packages/wolves_neat"
+  ],
+  "outputStyle": "compressed",
+  "sourceComments": true,
+  "sourceMap": true
+}

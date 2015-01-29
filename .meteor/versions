@@ -7,8 +7,6 @@ binary-heap@1.0.2
 blaze@2.0.4
 blaze-tools@1.0.2
 boilerplate-generator@1.0.2
-bstocks:bourbon@1.0.0
-bstocks:neat@1.0.1
 callback-hook@1.0.2
 cfs:http-methods@0.0.27
 check@1.0.4
@@ -47,6 +45,7 @@ meteorhacks:picker@1.0.1
 minifiers@1.1.3
 minimongo@1.0.6
 mobile-status-bar@1.0.2
+momentjs:moment@2.9.0
 mongo@1.0.11
 observe-sequence@1.0.4
 ordered-dict@1.0.2
@@ -68,3 +67,6 @@ underscore@1.0.2
 url@1.0.3
 webapp@1.1.6
 webapp-hashing@1.0.2
+wolves:bitters@1.0.0
+wolves:bourbon@1.0.0
+wolves:neat@1.0.0
