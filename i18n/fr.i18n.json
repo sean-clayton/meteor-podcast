@@ -1,3 +1,15 @@
 {
-  "hello_world": "Bonjour le monde!"
+  "greeting_friendly": "Héy!",
+  "home": "Maison",
+  "archive": "Archives",
+  "log_in": "S'identifier",
+  "log_in_friendly": "Tête en!",
+  "log_out": "Déconnexion",
+  "log_out_friendly": "",
+  "listen_to": "Écouter",
+  "about_us": "À Propos De Nous",
+  "about_us_friendly": "À Propos De L'équipe",
+  "store": "Magasin",
+  "please_wait_podcast": "Se il vous plaît patienter pendant que le podcast chargement.",
+  "please_wait_podcast_friendly": "Tenez tandis que les charges de podcast :)"
 }

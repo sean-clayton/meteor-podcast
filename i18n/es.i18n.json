@@ -1,3 +1,15 @@
 {
-  "hello_world": "Hola Mundo!"
+  "greeting_friendly": "Hola!",
+  "home": "Inicio",
+  "archive": "Archivo",
+  "log_in": "Entrar",
+  "log_in_friendly": "Cabeza Adelante!",
+  "log_out": "Cerrar sesión",
+  "log_out_friendly": "",
+  "listen_to": "Escucha",
+  "about_us": "Quiénes somos",
+  "about_us_friendly": "Acerca del equipo",
+  "store": "Tienda",
+  "please_wait_podcast": "Espere mientras el podcast se está cargando.",
+  "please_wait_podcast_friendly": "Espera a que se cargue de podcast :)"
 }
