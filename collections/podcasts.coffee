@@ -2,7 +2,7 @@ podcastSchemaObject =
   _id:
     type: String
     optional: true
-  mp3Url:
+  audioUrl:
     type: String
     optional: false
   title:
@@ -28,3 +28,16 @@ podcastSchemaObject =
   "time.queueTime":
     type: String
     required: false
+  featured:
+    type: Boolean
+    required: true
+  listenCount:
+    type: Number
+    optional: true
+    autoform:
+      omit: true
+  downloadCount:
+    type: Number
+    optional: true
+    autoform:
+      omit: true
