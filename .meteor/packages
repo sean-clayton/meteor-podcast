@@ -5,7 +5,6 @@
 # but you can also edit it by hand.
 
 meteor-platform
-tap:i18n
 coffeescript
 iron:router
 meteorhacks:fast-render
