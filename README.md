@@ -11,7 +11,6 @@ This boilerplate uses the following meteor packages:
 - meteor-platform | Include a standard set of Meteor packages in your app
 - meteorhacks:fast-render | Render you app even before the DDP connection comes live. - magic?
 - momentjs:moment | Parse, validate, manipulate, and display dates
-- tap:i18n | A comprehensive internationalization solution for Meteor
 - wolves:bitters | Scaffold styles, variables and structure for Bourbon projects.
 - wolves:bourbon | Bourbon is a simple and lightweight mixin library for Sass.
 - wolves:neat | A lightweight, semantic grid framework built on top of Bourbon.
