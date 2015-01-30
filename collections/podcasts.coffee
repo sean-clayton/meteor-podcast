@@ -1,4 +1,4 @@
-podcastSchemaObject =
+podcastSchemaObject = # collections2 object schema
   _id:
     type: String
     optional: true
@@ -22,15 +22,18 @@ podcastSchemaObject =
     optional: true
   time:
     type: String
-  "time.queue":
-    type: Boolean
-    required: true
-  "time.queueTime":
+    optional: false
+  queue:
     type: String
-    required: false
+  "queue.queue":
+    type: Boolean
+    optional: false
+  "queue.time":
+    type: String
+    optional: false
   featured:
     type: Boolean
-    required: true
+    optional: true
   listenCount:
     type: Number
     optional: true
@@ -41,3 +44,28 @@ podcastSchemaObject =
     optional: true
     autoform:
       omit: true
+  clickCount:
+    type: Number
+    optional: true
+    autoform:
+      omit: true
+
+@Podcasts = new Meteor.Collection "podcasts"
+
+podcastSchema = new SimpleSchema podcastSchemaObject
+
+Podcasts.attachSchema podcastSchema
+
+getPodcastProperties = (podcast) ->
+  podcast =
+    podcastTitle: stripHTML podcast.title
+
+submitPodcast = (podcast) ->
+  defaultProperties =
+    time: new Date()
+    listenCount: 0
+    downloadCount: 0
+    clickCount: 0
+    featured: false
+
+  podcast = _.extend defaultProperties, podcast
