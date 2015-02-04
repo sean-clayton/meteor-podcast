@@ -1,5 +1,7 @@
 <template name="defaultLayout">
+  {{> headerPartial}}
+  {{> navigationPartial}}
+  {{> yield}}
   {{> playerPartial}}
-
-  {{void}}
+  {{> footerPartial}}
 </template>

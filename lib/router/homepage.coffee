@@ -1,4 +1,3 @@
-Meteor.startup ->
-  Router.route "/",
-    name: "home"
-    title: "Home"
+Router.route "/",
+  name: "home"
+  title: "Home"
